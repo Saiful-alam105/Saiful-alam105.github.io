@@ -20,12 +20,11 @@ The project ultimately compares three classical machine-learning models with a r
 | Project Name | SMS Spam Detection |
 | Purpose | Classify SMS messages as Spam or Ham |
 | Tech Stack | Python, Pandas, NumPy, NLTK, Scikit-learn, TensorFlow, Matplotlib, Seaborn, Pickle |
-| Duration | Academic/portfolio project |
 | Role/Contributions | End-to-end implementation: EDA, NLP preprocessing, feature engineering, model training, evaluation, visualization, and prediction pipeline |
 
 The project uses the SMS Spam Collection dataset and converts raw messages into features that machine-learning models can process. The NLP pipeline includes lowercasing, punctuation and special-character removal, tokenization, stopword removal, and stemming. After preprocessing, I used TF-IDF to represent the text numerically for the classical machine-learning models.
 
-I trained Multinomial Naive Bayes, Logistic Regression, and Random Forest models and evaluated them using accuracy, precision, recall, and F1 score. I also built an RNN using an embedding layer, SimpleRNN, and dense layers. The repository contains separate notebooks for each major stage as well as reusable Python modules under `src/`. The repository currently contains 25 commits and includes the dataset, trained models, notebooks, source code, report, README, requirements, and an MIT license.
+I trained Multinomial Naive Bayes, Logistic Regression, and Random Forest models and evaluated them using accuracy, precision, recall, and F1 score. I also built an RNN using an embedding layer, SimpleRNN, and dense layers. The repository contains separate notebooks for each major stage as well as reusable Python modules under `src/`.
 
 ## Architecture / How It Works
 

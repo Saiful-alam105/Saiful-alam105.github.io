@@ -9,25 +9,26 @@ order: 4
 {: .prompt-info }
 
 <!-- ============================================================
-  PLACEHOLDER PROJECT 1 — copy this card and edit the fields below
+  SMS SPAM DETECTOR
 ============================================================ -->
 <div class="card project-card mb-4">
   <div class="card-body">
     <h3 class="card-title h5">
-      Project Name 1
-      <a href="https://github.com/Saiful-alam105" target="_blank" rel="noopener"
+      SMS Spam Detector
+      <a href="https://github.com/Saiful-alam105/spam-detection" target="_blank" rel="noopener"
          class="ms-2" aria-label="GitHub repo"><i class="fab fa-github"></i></a>
-      <a href="#" target="_blank" rel="noopener"
-         class="ms-2" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+      <a href="/posts/sms-spam-detector/" class="ms-2" aria-label="Blog post"><i class="fas fa-book"></i></a>
     </h3>
     <p class="card-text">
-      One to two sentences describing what this project does, the problem it
-      solves, and what you learned building it.
+      An end-to-end NLP and machine-learning project that classifies SMS messages
+      as spam or ham. Compares Naive Bayes, Logistic Regression, and Random Forest
+      against an RNN, with Random Forest achieving the best overall F1 score.
     </p>
     <p>
       <span class="badge text-bg-light border">Python</span>
-      <span class="badge text-bg-light border">Machine Learning</span>
-      <span class="badge text-bg-light border">FastAPI</span>
+      <span class="badge text-bg-light border">NLP</span>
+      <span class="badge text-bg-light border">Scikit-learn</span>
+      <span class="badge text-bg-light border">TensorFlow</span>
     </p>
   </div>
 </div>
@@ -77,7 +78,7 @@ order: 4
 
 ---
 
-**Placeholders:** These three cards are samples. Replace the text, tags, and links
-with your own work, and duplicate a card block if you have more projects. Once a
-project is written up as a [blog post](/categories/), link it here too.
+**Placeholders:** The two cards below are samples. Replace the text, tags, and links
+with your own work, and duplicate a card block if you have more projects. Each project
+can link to its [blog post](/categories/) like the SMS Spam Detector above.
 {: .prompt-tip }
