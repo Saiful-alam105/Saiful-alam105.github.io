@@ -2,7 +2,7 @@
 layout: page
 title: Blog Posts
 icon: fas fa-newspaper
-order: 4
+order: 3
 ---
 
 {% assign grouped = site.posts | group_by_exp: "post", "post.categories | first" %}
@@ -33,3 +33,23 @@ order: 4
 </div>
 {% endfor %}
 {% endfor %}
+
+## Tags
+
+<div id="tags" class="d-flex flex-wrap mx-xl-2">
+  {% assign tags = '' | split: '' %}
+  {% for t in site.tags %}
+    {% assign tags = tags | push: t[0] %}
+  {% endfor %}
+
+  {% assign sorted_tags = tags | sort_natural %}
+
+  {% for t in sorted_tags %}
+    <div>
+      <a class="tag" href="{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
+        {{ t -}}
+        <span class="text-muted">{{ site.tags[t].size }}</span>
+      </a>
+    </div>
+  {% endfor %}
+</div>
