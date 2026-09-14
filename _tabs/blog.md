@@ -2,7 +2,7 @@
 layout: page
 title: Blog Posts
 icon: fas fa-newspaper
-order: 3
+order: 1
 ---
 
 {% assign grouped = site.posts | group_by_exp: "post", "post.categories | first" %}
