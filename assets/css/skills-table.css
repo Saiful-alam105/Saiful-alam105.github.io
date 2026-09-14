@@ -1,0 +1,45 @@
+/* Scoped to the "What I Work With" table on the About page only. */
+.table-wrapper > table.skills-table {
+  width: 100%;
+  min-width: 100%;
+  border-collapse: collapse;
+}
+
+.table-wrapper > table.skills-table thead th {
+  padding: 0.4rem 1rem;
+  font-size: 95%;
+  white-space: nowrap;
+  text-align: left;
+  color: var(--heading-color);
+  border-bottom: 2px solid var(--tb-border-color);
+}
+
+.table-wrapper > table.skills-table tbody tr {
+  background: transparent;
+}
+
+.table-wrapper > table.skills-table tbody td {
+  padding: 0.4rem 1rem;
+  font-size: 95%;
+  white-space: normal;
+  vertical-align: top;
+  text-align: left;
+  border-bottom: 1px solid var(--tb-border-color);
+}
+
+.table-wrapper > table.skills-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table-wrapper > table.skills-table tbody td:first-child {
+  width: 9rem;
+  color: var(--heading-color);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@media (min-width: 992px) {
+  .table-wrapper > table.skills-table {
+    min-width: 70%;
+  }
+}

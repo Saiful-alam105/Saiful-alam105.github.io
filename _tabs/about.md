@@ -11,14 +11,15 @@ possible — from data pipelines to machine learning models served through APIs.
 
 ## What I Work With
 
-- **Machine Learning & Data Mining** — building and evaluating models that find
-  patterns in real-world data.
-- **Python** — my main language for data work and scripting.
-- **FastAPI** — serving models and building lightweight, fast APIs.
-- **System Design** — thinking about how pieces fit together at scale.
-- **C / C++** — for performance-sensitive foundations.
-- **SQL / Databases** — querying, modeling, and storing data properly.
-- **Git & GitHub** — version control and collaboration.
+| Category | Technologies / Skills |
+| --- | --- |
+| **Languages** | Python, C, C++, Java, SQL |
+| **Libraries** | NumPy, Pandas, Scikit-learn, PyTorch, TensorFlow, Matplotlib, Seaborn |
+| **Frameworks** | LangChain, Hugging Face, FastAPI |
+| **Tools** | Git, Docker, Linux, VS Code, Jupyter |
+| **Databases** | MySQL, PostgreSQL |
+| **Domains** | Backend Engineering, RAG Systems, AI Agents, Deep Learning, NLP |
+{: .skills-table }
 
 ## What I'm Focused On
 
