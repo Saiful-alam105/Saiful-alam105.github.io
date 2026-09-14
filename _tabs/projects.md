@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 icon: fas fa-code-branch
-order: 4
+order: 5
 ---
 
 <!-- ============================================================
