@@ -133,14 +133,14 @@ After retraining, the RNN reached 96.01% accuracy, 83.84% precision, 84.69% reca
 
 ## Results / Impact
 
-| Model | Accuracy | Precision | Recall | F1 Score | Notes |
-| --- | --- | --- | --- | --- | --- |
-| **Random Forest** | 97.16% | 98.72% | 78.57% | 87.50% | Best overall model |
-| Naive Bayes | 96.65% | — | — | 84.71% | — |
-| Logistic Regression | 95.10% | — | — | 76.25% | — |
-| RNN (class-balanced) | 96.01% | 83.84% | 84.69% | 84.26% | Reached these scores after addressing class imbalance |
+| Model | Accuracy | Precision | Recall | F1 Score |
+| --- | --- | --- | --- | --- |
+| Naive Bayes | 96.65% | 100.00% | 73.47% | 84.71% |
+| Logistic Regression | 95.10% | 98.39% | 62.24% | 76.25% |
+| **Random Forest** | 97.16% | 98.72% | 78.57% | 87.50% |
+| RNN | 96.01% | 83.84% | 84.69% | 84.26% |
 
-The final prediction pipeline takes a raw SMS message through preprocessing and TF-IDF transformation before returning a Spam/Ham classification and confidence value.
+Random Forest was the best overall model, while the RNN reached 96.01% accuracy and an 84.26% F1 score after addressing class imbalance. The final prediction pipeline takes a raw SMS message through preprocessing and TF-IDF transformation before returning a Spam/Ham classification and confidence value.
 
 ## Conclusion
 
