@@ -2,7 +2,7 @@
 title: Building an SMS Spam Detector with NLP and RNN
 date: "2026-09-15 04:02:00 +0600"
 categories: [projects]
-tags: [python, nlp, machine-learning, tensorflow, spam-detection]
+tags: [python, nlp, machine-learning, Scikit-learn, spam-detection]
 mermaid: true
 toc: true
 ---
@@ -19,7 +19,7 @@ The project ultimately compares three classical machine-learning models with a r
 | --- | --- |
 | Project Name | SMS Spam Detection |
 | Purpose | Classify SMS messages as Spam or Ham |
-| Tech Stack | Python, Pandas, NumPy, NLTK, Scikit-learn, TensorFlow, Matplotlib, Seaborn, Pickle |
+| Tech Stack | Python, Pandas, NumPy, NLTK, Scikit-learn, TensorFlow, Matplotlib, Seaborn|
 | Role/Contributions | End-to-end implementation: EDA, NLP preprocessing, feature engineering, model training, evaluation, visualization, and prediction pipeline |
 
 The project uses the SMS Spam Collection dataset and converts raw messages into features that machine-learning models can process. The NLP pipeline includes lowercasing, punctuation and special-character removal, tokenization, stopword removal, and stemming. After preprocessing, I used TF-IDF to represent the text numerically for the classical machine-learning models.
@@ -133,11 +133,14 @@ After retraining, the RNN reached 96.01% accuracy, 83.84% precision, 84.69% reca
 
 ## Results / Impact
 
-- Random Forest was the best overall model, achieving 97.16% accuracy, 98.72% precision, 78.57% recall, and an 87.50% F1 score.
-- Naive Bayes reached 96.65% accuracy and an 84.71% F1 score.
-- Logistic Regression reached 95.10% accuracy and a 76.25% F1 score.
-- RNN reached 96.01% accuracy and an 84.26% F1 score after addressing class imbalance.
-- The final prediction pipeline takes a raw SMS message through preprocessing and TF-IDF transformation before returning a Spam/Ham classification and confidence value.
+| Model | Accuracy | Precision | Recall | F1 Score | Notes |
+| --- | --- | --- | --- | --- | --- |
+| **Random Forest** | 97.16% | 98.72% | 78.57% | 87.50% | Best overall model |
+| Naive Bayes | 96.65% | — | — | 84.71% | — |
+| Logistic Regression | 95.10% | — | — | 76.25% | — |
+| RNN (class-balanced) | 96.01% | 83.84% | 84.69% | 84.26% | Reached these scores after addressing class imbalance |
+
+The final prediction pipeline takes a raw SMS message through preprocessing and TF-IDF transformation before returning a Spam/Ham classification and confidence value.
 
 ## Conclusion
 

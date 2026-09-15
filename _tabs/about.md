@@ -26,4 +26,4 @@ possible — from data pipelines to machine learning models served through APIs.
 Right now I am deepening my skills in applied machine learning and data
 engineering, working on projects that combine clean data pipelines with
 practical, deployed models. I document what I learn and build on this site, so
-check the [Projects](/projects/) tab and the blog posts below.
+check the [Projects](/projects/) tab and the [blog posts](/blog/) below.
