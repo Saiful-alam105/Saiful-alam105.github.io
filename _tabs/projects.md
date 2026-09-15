@@ -28,3 +28,28 @@ order: 2
     </p>
   </div>
 </div>
+
+<!-- ============================================================
+  IOT MUSHROOM ENVIRONMENT MONITORING SYSTEM
+============================================================ -->
+<div class="card project-card mb-4">
+  <div class="card-body">
+    <h3 class="card-title h5">
+      IoT Mushroom Environment Monitoring System
+      <a href="https://github.com/tanviruman/IoT-Based-Mushroom-Environment-Monitoring-System" target="_blank" rel="noopener"
+         class="ms-2" aria-label="GitHub repo"><i class="fab fa-github"></i></a>
+      <a href="/posts/iot-mushroom-monitoring/" class="ms-2" aria-label="Blog post"><i class="fas fa-book"></i></a>
+    </h3>
+    <p class="card-text">
+      An ESP32-based IoT system that monitors temperature, humidity, soil moisture,
+      and gas levels for mushroom cultivation. Data is shown on a 20x4 LCD and a
+      Blynk mobile dashboard, with remote control of a ventilation fan.
+    </p>
+    <p>
+      <span class="badge text-bg-light border">ESP32</span>
+      <span class="badge text-bg-light border">IoT</span>
+      <span class="badge text-bg-light border">Blynk</span>
+      <span class="badge text-bg-light border">Arduino</span>
+    </p>
+  </div>
+</div>
