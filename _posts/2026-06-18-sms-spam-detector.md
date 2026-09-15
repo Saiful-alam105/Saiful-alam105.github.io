@@ -1,6 +1,7 @@
 ---
 title: Building an SMS Spam Detector with NLP and RNN
-date: "2026-09-15 04:02:00 +0600"
+date: "2026-06-18 04:02:00 +0600"
+last_modified_at: "2026-06-18 04:02:00 +0600"
 categories: [projects]
 tags: [python, nlp, machine-learning, Scikit-learn, spam-detection]
 mermaid: true

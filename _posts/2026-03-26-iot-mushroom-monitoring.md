@@ -1,6 +1,7 @@
 ---
 title: IoT Mushroom Environment Monitoring with ESP32
-date: "2026-09-15 18:31:50 +0600"
+date: "2026-03-26 18:31:50 +0600"
+last_modified_at: "2026-03-26 18:31:50 +0600"
 categories: [projects]
 tags: [iot, esp32, blynk, sensors, arduino]
 image: /assets/img/2522.jpeg
