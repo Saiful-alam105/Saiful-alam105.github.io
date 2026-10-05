@@ -25,7 +25,6 @@ I built Quorum to replace that confidence with measured evidence.
 | Purpose | Automated, evidence-based GitHub Pull Request review with a deterministic readiness score |
 | Tech Stack | Python, FastAPI, PostgreSQL, React, TypeScript, Semgrep, OpenAI, Docker |
 | Duration | 8 weeks (Aug-Sep 2026) |
-| Role | Backend architecture, AI pipeline, GitHub integration, dashboard |
 
 Quorum installs as a GitHub App. When a pull request is opened or updated,
 GitHub delivers a webhook to the backend, and an orchestrator runs a review
