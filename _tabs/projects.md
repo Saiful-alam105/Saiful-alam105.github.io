@@ -53,3 +53,28 @@ order: 2
     </p>
   </div>
 </div>
+
+<!-- ============================================================
+  QUORUM
+============================================================ -->
+<div class="card project-card mb-4">
+  <div class="card-body">
+    <h3 class="card-title h5">
+      Quorum
+      <a href="https://github.com/Saiful-alam105/Quorum" target="_blank" rel="noopener"
+         class="ms-2" aria-label="GitHub repo"><i class="fab fa-github"></i></a>
+      <a href="/posts/building-quorum/" class="ms-2" aria-label="Blog post"><i class="fas fa-book"></i></a>
+    </h3>
+    <p class="card-text">
+      An evidence-based GitHub Pull Request reviewer. It grounds LLM review in
+      Semgrep findings, runs generated tests in a hardened sandbox, and produces
+      a deterministic Merge Readiness Score shown in a React dashboard.
+    </p>
+    <p>
+      <span class="badge text-bg-light border">Python</span>
+      <span class="badge text-bg-light border">FastAPI</span>
+      <span class="badge text-bg-light border">LLM</span>
+      <span class="badge text-bg-light border">Docker</span>
+    </p>
+  </div>
+</div>
