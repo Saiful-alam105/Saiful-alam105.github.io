@@ -6,8 +6,7 @@ order: 5
 ---
 
 Have a question, or want to work together? Fill in the form below and your
-message will be delivered straight to my inbox. My email address is never shown
-publicly, and your details stay private.
+message will be delivered straight to my inbox. Your details stay private.
 
 <form action="https://formspree.io/f/mljgevvz" method="POST">
   <div class="mb-3">
