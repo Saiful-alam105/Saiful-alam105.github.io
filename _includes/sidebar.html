@@ -27,6 +27,16 @@
       </li>
       <!-- the real tabs -->
       {% for tab in site.tabs %}
+        {% if tab.url == '/about/' %}
+          <!-- download cv (above about) -->
+          <li class="nav-item">
+            <a href="{{ '/assets/files/cv.pdf' | relative_url }}" class="nav-link" download>
+              <i class="fa-fw fas fa-file-pdf"></i>
+              <span>DOWNLOAD CV</span>
+            </a>
+          </li>
+          <!-- .nav-item -->
+        {% endif %}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
           <a href="{{ tab.url | relative_url }}" class="nav-link">
             <i class="fa-fw {{ tab.icon }}"></i>
@@ -37,14 +47,6 @@
         </li>
         <!-- .nav-item -->
       {% endfor %}
-      <!-- download cv -->
-      <li class="nav-item">
-        <a href="{{ '/assets/files/cv.pdf' | relative_url }}" class="nav-link" download>
-          <i class="fa-fw fas fa-file-pdf"></i>
-          <span>DOWNLOAD CV</span>
-        </a>
-      </li>
-      <!-- .nav-item -->
     </ul>
   </nav>
 
