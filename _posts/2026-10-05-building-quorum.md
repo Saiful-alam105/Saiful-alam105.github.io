@@ -3,12 +3,10 @@ title: "Building Quorum: Evidence-Based PR Review with LLMs"
 date: "2026-10-05 12:00:00 +0600"
 categories: [projects]
 tags: [python, fastapi, llm, github, semgrep, docker]
-image: /assets/img/quorum-demo-1.png
+image: /assets/img/quorum-demo.png
 mermaid: true
 toc: true
 ---
-
-![Quorum Demo](/assets/img/quorum-demo.png)
 
 ## Introduction
 
@@ -130,7 +128,7 @@ def _score_text(review):
 The video walks through connecting a repository, reviewing a pull request, and
 explaining the Merge Readiness Score end to end.
 
-[Watch the Quorum demo](https://drive.google.com/file/d/19-fN5MIyMPMrR8UVtf1IV9KvZa6arSMy/view?usp=drive_link)
+[![Watch the Quorum demo](/assets/img/quorum-demo-1.png)](https://drive.google.com/file/d/19-fN5MIyMPMrR8UVtf1IV9KvZa6arSMy/view?usp=drive_link)
 
 ## Challenges & Lessons Learned
 
